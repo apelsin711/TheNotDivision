@@ -1,0 +1,5 @@
+[build]
+  publish = "static"
+
+# Netlify publishes the contents of static/; this keeps the existing
+# /static/... asset URLs working without changing the FastAPI version.
